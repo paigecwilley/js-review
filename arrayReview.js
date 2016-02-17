@@ -2,8 +2,17 @@ var threeItems = [1,2,3];
 //create a function named 'last' that returns the last item from 'threeItems'
 //alert the result of your function
 
-  //code here
+  function last(){
+  	var lastItem = threeItems.pop;
+ 	return lastItem;
+  }
 
+function last(param) {
+  	var lastItem = '';
+  	 lastItem = param.pop();
+  	alert(lastItem);
+  }
+  last(threeItems);
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */

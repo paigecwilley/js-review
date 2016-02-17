@@ -1,6 +1,10 @@
 /* Declare and Define the functions here that will make the function calls below work properly */
 
 
+function first(arr, cb){
+  cb(arr[0]);
+
+}
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 first(names, function(firstName){
