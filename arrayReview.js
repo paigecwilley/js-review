@@ -23,6 +23,15 @@ function last(param) {
 var evenArray = [1,2,3,6,22,98,45,23,22,12];
 
   //code here
+  function evenLoop(arr){
+    var newArr = [];
+    for(var i = 0; i < arr.length; i++){
+      if ( arr[i] % 2 === 0) {
+        newArr.push[arr[i]];
+      }
+    }
+    return newArr;
+  }
 
 
 /* NEXT PROBLEM - NEXT PROBLEM - NEXT PROBLEM */
@@ -47,6 +56,10 @@ var first = [1,2,3,4,5];
 var second;
 
   //code here
+    second = arr.slice(0, first.length -1).push(6, 7);
+ 
+
+
 
 alert(first) //[1,2,3,4,5];
 alert(second) //[1,2,3,4,5,6,7];
